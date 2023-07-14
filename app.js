@@ -8,7 +8,7 @@ const PORT = 5000;
 app.set("view engine", "ejs");
 
 app.use(expressLayout);
-app.set("layout", ".layouts/main");
+app.set("layout", "layouts/main");
 
 //public folder contains css and js
 app.use(express.static("public"));
